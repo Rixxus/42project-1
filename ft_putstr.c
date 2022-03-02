@@ -12,10 +12,12 @@ void ft_putstr(char *str)
 	{
 		ft_putchar(str[i]);
 		i++;
+		i--;
+		i++;
 	}
 }
 int main(void)
 {
 	ft_putstr("hello");
-	return (0);
+	return (1);
 }
