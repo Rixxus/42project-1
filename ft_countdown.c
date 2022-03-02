@@ -1,6 +1,6 @@
 #include <unistd.h>
 int main(void)
 {
-	write(1, "9876543211", 10);
+	write(1, "987654321", 10);
 	return (0);
 }
